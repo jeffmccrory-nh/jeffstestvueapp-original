@@ -1,0 +1,1 @@
+docker run --init -p 5000:5000 graphile/postgraphile --connection postgres://pguser:news-made-square-rhythm@localhost:5432/claims --schema public --watch
